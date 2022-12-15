@@ -26,6 +26,8 @@
 
   body{
     font-size: 14px;
+    width: 100%;
+    height: auto;
     
   }
   .bg{
@@ -38,14 +40,14 @@
   #bg-1{
     background-color: var(--header-bg-faixa-color);
     width: 100%;
-    height: 50vh;
-    border: 1px solid red;
+    height: 300px;
+    /* border: 1px solid red; */
     /* position: relative; */
   }
 
   #bg-2{
-    /* background-color: var(--body-bg-lightTheme-color); */
-    background-color: blue;
+    background-color: var(--body-bg-lightTheme-color);
+    /* background-color: blue; */
     width: 100%;
     height: 100vh;
   }
@@ -53,7 +55,7 @@
   main{
     padding-left: 5em;
     padding-right: 5em;
-    position: fixed;
+    position: absolute;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -65,7 +67,7 @@
     display: flex;
     flex-direction: row;
    justify-content: space-between;
-   margin-top: 2rem;  
+   margin-top: 1rem;  
    
   }
 
@@ -74,7 +76,7 @@
     flex-direction: column;
     /* position: absolute; */
     align-items: flex-start;
-    margin-bottom: 2.5em;
+    margin-bottom: 1em;
     line-height: 1.5em; 
   }
 
@@ -178,3 +180,59 @@
     font-weight: 700;
     color: var(--cards-textVeryDark-color);
 }
+
+
+.visualizacoes{
+    margin-top: 4.5em;
+    margin-bottom: 1.5em;
+    color: var(--cards-textDark-color);
+}
+
+.cards2{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    row-gap: 1.5em;    
+    width: 100%;
+    margin-bottom: 25px;
+    /* height: 30vh; */
+     /* padding-bottom: 86%; */
+ }
+
+ .face1, .face2, .insta1, .insta2, .twitter1, .twitter2, .tube1, .tube2{
+    background-color: var(--cards-bg-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em;
+   
+    font-size: 0.8em;
+    line-height: 2rem;   
+    border-radius: 5px;
+    cursor: pointer; 
+        
+ }
+
+  .face1:hover, .face2:hover, .insta1:hover, .insta2:hover, .twitter1:hover, .twitter2:hover, .tube1:hover, .tube2:hover{
+    background-color: var(--cards-bgToggle-color);    
+ }
+
+ .acao, .quantidade{
+    justify-items: flex-start;
+ }
+
+ .icone, .percent{
+    text-align:end;
+   
+    
+ }
+
+ .acao{
+    color: var(--cards-textDark-color);
+ }
+
+ .quantidade{
+    color: var(--cards-textVeryDark-color);
+    font-size: 2em;
+    font-weight: 700;
+ }
