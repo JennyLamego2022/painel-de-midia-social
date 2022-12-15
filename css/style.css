@@ -2,7 +2,9 @@
 
 :root {
     --body-bg-lightTheme-color: hsl(0, 0%, 100%);
-    --body-bg-darkTheme-color: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --body-bgtoggle-darkTheme-color: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+    --buttom-lightTheme-color: hsl(210, 78%, 56%);
     
    
     --header-bg-faixa-color: hsl(225, 100%, 98%);
@@ -13,7 +15,7 @@
 
     --cards-topFacebook-color: hsl(208, 92%, 53%);
     --cards-topTwitter-color: hsl(203, 89%, 53%);
-    --cards-topInstagram-color: linear gradient (to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    --cards-topInstagram-color: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     --cards-topYouTube-color: hsl(348, 97%, 39%);
 
 }
@@ -89,13 +91,24 @@
     align-content: center;
     font-size: 0.8em;
     color: var(--cards-textDark-color);
-
   }
+
+  .toggle{
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    border:none;
+   
+    background-image: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+ 
+  }
+
 
   #img{
     width: 15px;
-    height: 15px;
-    justify-items: center;
+    height: 20px;
+    margin-left: 18px;
+       
   }
 
   div h1{
@@ -143,8 +156,9 @@
 
 .instagram{
     border-top: 3px solid transparent;
-    border-image:  linear gradient (to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-image: var(--cards-topInstagram-color);
     border-image-slice: 1;
+    
 }
 
 .youtube{
