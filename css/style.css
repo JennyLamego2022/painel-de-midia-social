@@ -28,6 +28,7 @@ body[data-theme="t-dark"]{
     --body-bg-faixa-color: hsl(232, 19%, 15%);
     --body-btnBgtoggle-color: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     --cards-bg-color: hsl(228, 28%, 20%);
+    --cards-bgToggle-color: hsl(230, 22%, 74%);
     --cards-textDark-color: hsl(228, 34%, 66%);
     --cards-textVeryDark-color: hsl(0, 0%, 100%);
     --cards-topFacebook-color: hsl(208, 92%, 53%);
@@ -67,8 +68,8 @@ body[data-theme="t-dark"]{
   }
 
   main{
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 5.5em;
+    padding-right: 5.5em;
     position: absolute;
     top: 0;
     display: flex;
@@ -82,6 +83,7 @@ body[data-theme="t-dark"]{
     flex-direction: row;
    justify-content: space-between;
    margin-top: 1rem;  
+   
    
   }
 
@@ -101,7 +103,8 @@ body[data-theme="t-dark"]{
     align-items: flex-end;
     justify-items: center;
     align-content: center;
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: 700;
     color: var(--cards-textDark-color);
   }
 
@@ -124,13 +127,14 @@ body[data-theme="t-dark"]{
   }
 
   div h1{
-    font-size: 18px;
+    font-size: 2em;
     color: var(--cards-textVeryDark-color);
 }
 
   div h2{
-    font-size: 0.8em;
+    font-size: 1em;
     color: var(--cards-textDark-color);
+    margin-top: 8px;
   }
 
   .cards1{
@@ -139,7 +143,7 @@ body[data-theme="t-dark"]{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2em;
     width: 100%;
-    height: 30vh;
+    height: 25vh;
      /* padding-bottom: 86%; */
  }
 
@@ -209,9 +213,10 @@ body[data-theme="t-dark"]{
 
 
 .visualizacoes{
-    margin-top: 4.5em;
-    margin-bottom: 1.5em;
+    margin-top: 5.3em;
+    margin-bottom: 1em;
     color: var(--cards-textDark-color);
+    font-size: 1.2em;
 }
 
 .cards2{
