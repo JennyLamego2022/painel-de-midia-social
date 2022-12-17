@@ -15,7 +15,7 @@ Painel de Midia Social com alternador de temas, que concentra informações das 
 <br>
 
 <div align="center">
-<img src = "https://user-images.githubusercontent.com/97410860/206951177-f94ec9fb-d4b2-4583-b48b-11979cd73657.jpg" width = "350px"/>
+<img src = "![Slide1](https://user-images.githubusercontent.com/97410860/208267205-d8020ab4-c01c-4a82-a7b4-00cc80c016da.JPG)" width = "350px"/>
 </div>
 
 <br>
