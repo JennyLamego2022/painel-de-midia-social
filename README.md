@@ -1,6 +1,3 @@
-# painel-de-midia-social
-
-
 # <h1 align="center">Painel de Midia Social</h1>
 
 Painel de Midia Social com alternador de temas, que concentra informações das principais redes sociais do usuário. Apresentado com dois temas diferentes que o usuário pode escolher, entre ligth e dark. 
@@ -9,13 +6,13 @@ Painel de Midia Social com alternador de temas, que concentra informações das 
 
 - CSS: Aplicação de variáveis de cores para implantação da troca de temas, manipulação de display flex e display grid. 
 <br>
--JavaScript: função para troca de temas do painel com apenas um clique em um botão de mode. 
+- JavaScript: função para troca de temas do painel com apenas um clique em um botão de mode. 
 
 <br>
 <br>
 
 <div align="center">
-<img src = "![Slide1](https://user-images.githubusercontent.com/97410860/208267205-d8020ab4-c01c-4a82-a7b4-00cc80c016da.JPG)" width = "350px"/>
+<img src = "https://user-images.githubusercontent.com/97410860/208267205-d8020ab4-c01c-4a82-a7b4-00cc80c016da.JPG" width = "350px"/>
 </div>
 
 <br>
